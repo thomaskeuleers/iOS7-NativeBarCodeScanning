@@ -16,6 +16,7 @@ NSString *const TKScanViewErrorDomain = @"TKScanViewErrorDomain";
 @interface TKScanView ()<AVCaptureMetadataOutputObjectsDelegate>
 
 @property (nonatomic, strong) AVCaptureSession *session;
+@property (nonatomic, assign) BOOL allowedToScan;
 
 @end
 
@@ -45,7 +46,10 @@ NSString *const TKScanViewErrorDomain = @"TKScanViewErrorDomain";
 // Default setup method
 - (void)setup {
     self.metadataObjectTypes = @[AVMetadataObjectTypeQRCode];
+    self.allowedToScan = YES;
 }
+
+
 
 - (void)startCapture {
     
@@ -79,7 +83,7 @@ NSString *const TKScanViewErrorDomain = @"TKScanViewErrorDomain";
             previewLayer.frame = self.bounds;
 
             [self.layer addSublayer:previewLayer];
-            
+            self.allowedToScan = YES;
             self.session = session;
             
         } else {
@@ -109,7 +113,8 @@ NSString *const TKScanViewErrorDomain = @"TKScanViewErrorDomain";
         }
     }
     
-    if (nil != scanningResult) {
+    if (nil != scanningResult && self.allowedToScan) {
+        self.allowedToScan = NO;
         [self endCapture];
 
         if ([self.delegate respondsToSelector:@selector(scanview:didFinishWithResult:)]) {
@@ -119,6 +124,8 @@ NSString *const TKScanViewErrorDomain = @"TKScanViewErrorDomain";
                 [NSException raise:NSInternalInconsistencyException format:@"Delegate must implement scanview:didFinishWithResult:"];
             }
         }
+    } else {
+        // Not allowed to scan
     }
     
 }
