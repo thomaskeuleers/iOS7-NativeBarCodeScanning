@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D38E42FB-A47A-4CFB-820A-B04A325DA96D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOS7-NativeBarCodeScanning</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FA10CC66-D82E-4D8F-A223-2AD50D9125E9</key>
+		<string>https://github.com/thomaskeuleers/iOS7-NativeBarCodeScanning.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS7-NativeBarCodeScanning.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FA10CC66-D82E-4D8F-A223-2AD50D9125E9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/thomaskeuleers/iOS7-NativeBarCodeScanning.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FA10CC66-D82E-4D8F-A223-2AD50D9125E9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FA10CC66-D82E-4D8F-A223-2AD50D9125E9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS7-NativeBarCodeScanning</string>
+		</dict>
+	</array>
+</dict>
+</plist>

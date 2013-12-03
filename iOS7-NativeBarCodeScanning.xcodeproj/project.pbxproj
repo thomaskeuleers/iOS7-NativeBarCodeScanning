@@ -24,6 +24,7 @@
 		E96B6E0A184B4BBC008498E3 /* TKScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = E96B6E09184B4BBC008498E3 /* TKScanView.m */; };
 		E96B6E0D184B4DC8008498E3 /* AVCaptureDevice+Availability.m in Sources */ = {isa = PBXBuildFile; fileRef = E96B6E0C184B4DC8008498E3 /* AVCaptureDevice+Availability.m */; };
 		E96B6E13184B6E92008498E3 /* ScanResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96B6E12184B6E92008498E3 /* ScanResultViewController.m */; };
+		E96B6E19184B84B1008498E3 /* SelectOutputTypesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E96B6E18184B84B1008498E3 /* SelectOutputTypesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		E96B6E0C184B4DC8008498E3 /* AVCaptureDevice+Availability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVCaptureDevice+Availability.m"; sourceTree = "<group>"; };
 		E96B6E11184B6E92008498E3 /* ScanResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanResultViewController.h; sourceTree = "<group>"; };
 		E96B6E12184B6E92008498E3 /* ScanResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanResultViewController.m; sourceTree = "<group>"; };
+		E96B6E17184B84B1008498E3 /* SelectOutputTypesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectOutputTypesViewController.h; sourceTree = "<group>"; };
+		E96B6E18184B84B1008498E3 /* SelectOutputTypesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectOutputTypesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				E96B6E0C184B4DC8008498E3 /* AVCaptureDevice+Availability.m */,
 				E96B6E11184B6E92008498E3 /* ScanResultViewController.h */,
 				E96B6E12184B6E92008498E3 /* ScanResultViewController.m */,
+				E96B6E17184B84B1008498E3 /* SelectOutputTypesViewController.h */,
+				E96B6E18184B84B1008498E3 /* SelectOutputTypesViewController.m */,
 			);
 			path = "iOS7-NativeBarCodeScanning";
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			files = (
 				E96B6DEA184B4B0C008498E3 /* ViewController.m in Sources */,
 				E96B6DE4184B4B0C008498E3 /* AppDelegate.m in Sources */,
+				E96B6E19184B84B1008498E3 /* SelectOutputTypesViewController.m in Sources */,
 				E96B6E0A184B4BBC008498E3 /* TKScanView.m in Sources */,
 				E96B6DE0184B4B0C008498E3 /* main.m in Sources */,
 				E96B6E13184B6E92008498E3 /* ScanResultViewController.m in Sources */,
