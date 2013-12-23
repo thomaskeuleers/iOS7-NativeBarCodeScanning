@@ -10,9 +10,9 @@
 
 @interface ScanResultViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+// Views
+@property (nonatomic, weak) IBOutlet UILabel *resultLabel;
 
-
-
+// Properties
 @property (nonatomic, strong) NSString *scanResult;
 @end

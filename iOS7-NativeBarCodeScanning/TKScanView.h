@@ -10,11 +10,9 @@
 
 extern NSString *const TKScanViewErrorDomain;
 
-enum
-{
+enum {
     TKNoVideoDeviceAvailable = -1
 };
-
 
 @protocol TKScanViewDelegate;
 @interface TKScanView : UIView
@@ -30,6 +28,7 @@ enum
 
 @protocol TKScanViewDelegate <NSObject>
 
+@required
 - (void)scanview:(TKScanView *)scanView didFinishWithResult:(NSString *)scanResult;
 
 @optional

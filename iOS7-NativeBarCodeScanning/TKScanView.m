@@ -49,8 +49,6 @@ NSString *const TKScanViewErrorDomain = @"TKScanViewErrorDomain";
     self.allowedToScan = YES;
 }
 
-
-
 - (void)startCapture {
     
     // Make capture session

@@ -8,17 +8,11 @@
 
 #import "ScanResultViewController.h"
 
-@interface ScanResultViewController ()
-
-@end
-
 @implementation ScanResultViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
     self.resultLabel.text = self.scanResult;
-    
 }
 
 @end
